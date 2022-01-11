@@ -11,6 +11,8 @@ public class ListIntersection {
 
     */
 
+    //Runtime O(A  + B) where A and B are the sizes of the lists, O(1) Space
+
     public static LinkedListNode findIntersect(LinkedListNode l1, LinkedListNode l2) {
         if (l1 == null || l2 == null) return null;
 
